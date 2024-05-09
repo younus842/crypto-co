@@ -1,0 +1,96 @@
+
+body{
+  background-color: rgb(37, 35, 35);
+}
+
+
+.container:hover{
+
+  width: 100vw;
+
+  transition: 0.7s ease;
+  border: 2px solid rgb(204, 194, 196);
+   border-radius: 10px;
+ 
+}
+
+  .navbar-brand{
+    font-size: 24px;
+    color: rgb(255, 242, 0);
+    font-style: italic;
+    
+  
+  
+  }
+
+  .navbar-brand:hover{
+    font-size: 24px;
+    color: rgb(255, 242, 0);
+    
+
+   
+ 
+  
+  
+  }
+  
+  .container{
+    border: 2px solid rgb(93, 90, 90);
+ 
+   
+    min-width: 100vw;
+
+  }
+  
+  .selection{
+    font-size: 18px;
+    width: 180px;
+    height: 30px;
+    background-color: rgb(250, 246, 246);
+    color: black;
+  
+  }
+
+  .navbar{
+    background-color: rgb(37, 35, 35);
+  }
+
+  .navbar-brand{
+    animation: left 8s linear 1s infinite alternate none;
+    position: relative; 
+    margin-left: 50px;
+    margin-right: 73px;
+    background-color: rgb(35, 33, 29);
+    
+    border-radius: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@keyframes left {
+    from{
+        
+        left: -5%;
+    }
+    to{
+        
+        left: 5%;
+    }
+
+}
+
+
+@media screen and (min-width: 220px) and (max-width: 990px) {
+
+  .container{
+    
+  min-width: 1050px;
+  font-size: 26px;
+  }
+
+  
+
+
+
+}
